@@ -10,7 +10,11 @@
       </h1>
     </div>
     <div class="links">
-      <p>Follow me</p>
+      Get In Touch
+      <i class="fab fa-instagram link"></i>
+      <i class="fab fa-github link"></i>
+      <i class="fab fa-facebook-square link"></i>
+      <i class="fas fa-envelope-square link"></i>
     </div>
     <div class="nextpage">Projects ></div>
   </main>
@@ -44,6 +48,9 @@ main {
   .links {
     grid-area: 5 / 1 / 6 / 5;
     padding: 30px;
+  }
+  .link {
+    color: orangered;
   }
   .nextpage {
     background: #eee;
