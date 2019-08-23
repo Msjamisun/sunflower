@@ -10,6 +10,15 @@
         <p>{{ project.description }}</p>
       </div>
     </section>
+    <aside>
+      <h3>About</h3>
+      <p>
+        This is a website I spun up while learning Nuxt.js. With the guidence of
+        my personal knowledge and the magnificent
+        <a>Sarah Drasner</a> you are now
+        able to access all there is to know and learn about Kathryn Marie Jamison.
+      </p>
+    </aside>
   </main>
 </template>
 
@@ -37,15 +46,13 @@ main {
     background: white;
     color: black;
     padding: 30px;
-    h1 {
-      margin-bottom: 2px;
-    }
     a {
       color: black;
     }
-    aside {
-      grid-area: 1 / 2 / 2 / 3;
-    }
+  }
+  aside {
+    grid-area: 1 / 2 / 2 / 3;
+    margin-left: 30px;
   }
 }
 
